@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double caloriesPerMinute = 3.6;
+
+    for(int minutes = 5; minutes <= 30; minutes += 5) {
+        cout << "Calories burned in " << minutes << " minutes: " 
+             << caloriesPerMinute * minutes << endl;
+    }
+    return 0;
+}
